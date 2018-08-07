@@ -127,8 +127,11 @@ nav {
       font-weight: bold;
       color: white; }
 
-.market_item {
-  display: inline-block; }
+.market_items {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 20px; }
 
 .market_item_icon {
   height: 150px; }

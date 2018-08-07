@@ -181,8 +181,14 @@ nav{
 
 }
 
+.market_items{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	padding: 20px;
+}
+
 .market_item{
-	display: inline-block;
 }
 
 .market_item_icon{
