@@ -142,55 +142,71 @@ nav{
 		padding-top: 70px;
 		padding-bottom: 100px;
 	}
-
-	.ghost_button{
-		padding-top: 100px;
-		display: inline-block;
-		width: 270px;
-		height: 60;
-		padding: 8px;
-		color: #fff;
-		background-color: rgba(0,0,0,0.15);
-		border: 2px solid #fff;
-		text-align: center;
-		outline: none;
-		text-decoration: none;
-		border-radius: 30px;
-		transition: color 0.3s ease-out,
-            background-color 0.3s ease-out,
-            border-color 0.3s ease-out;
-			
-			&:hover,
-			&:active {
-				background-color: $main-color;
-				border-color: $main-color;
-				color: #fff;
-				transition: color 0.3s ease-in,
-				            background-color 0.3s ease-in,
-				            border-color 0.3s ease-in;
-				}
-		a{
-			text-decoration: none;
-			font-size: 28px;
-			font-weight: bold;
-			color: white;
-		}
-		
-	}
-
-
 }
 
+.ghost_button{
+	padding-top: 100px;
+	display: inline-block;
+	width: 270px;
+	height: 60;
+	padding: 8px;
+	color: #fff;
+	background-color: rgba(0,0,0,0.15);
+	border: 2px solid #fff;
+	text-align: center;
+	outline: none;
+	text-decoration: none;
+	border-radius: 30px;
+	transition: color 0.3s ease-out,
+           background-color 0.3s ease-out,
+           border-color 0.3s ease-out;
+		
+		&:hover,
+		&:active {
+			background-color: $main-color;
+			border-color: $main-color;
+			color: #fff;
+			transition: color 0.3s ease-in,
+			            background-color 0.3s ease-in,
+			            border-color 0.3s ease-in;
+			}
+	a{
+		text-decoration: none;
+		font-size: 28px;
+		font-weight: bold;
+		color: white;
+	}
+	
+}
+
+
+
 .market_items{
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-start;
-	padding: 20px;
+	// display: inline-block;
+	// width: calc((100%-300px)/2);
+text-align: center;
+	padding-top: 20px;
 }
 
 .market_item{
+	display: inline-block;
+	background-color: #3C444D;
+	width: 220px;
+	margin: 0 20px; 
+	text-align: center;
+	border-radius: 10px;
+
+	.ghost_button{
+		width: 180px;
+		height: 30px;
+		text-align: center;
+	 	a{
+			font-size: 16px;
+		}
+	}
 }
 
 .market_item_icon{
-	height: 150px;
+	width: 220px;
+	border-radius: 10px 10px 0 0;
 }
