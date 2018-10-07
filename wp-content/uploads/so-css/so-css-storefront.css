@@ -1,0 +1,7 @@
+.site-footer a:not(.button) {
+  display: none;
+}
+
+.site-info {
+  display: none;
+}
